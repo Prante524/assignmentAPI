@@ -13,10 +13,15 @@
 
   <main>
     <div class="search-container">
-      <input type="text" id="countryInput" placeholder="Enter country name">
+      <input type="text" id="countryInput" placeholder="Enter country name...">
       <button onclick="searchCountry()">Search</button>
     </div>
-    <div class="card-container" id="resultContainer"></div>
+
+    <div id="loader" class="loader"></div>
+
+    <div id="resultContainer" class="card-container"></div>
+
+    <button onclick="scrollToTop()" id="topBtn">⬆️ Top</button>
   </main>
 
   <footer>
