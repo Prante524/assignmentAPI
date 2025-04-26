@@ -42,7 +42,7 @@ async function searchCountry() {
       <p><strong>UV Index:</strong> ${weatherData.hourly.uv_index[0]}</p>
       <p><strong>Weather Condition:</strong> ${weatherEmoji}</p>
 
-      <button onclick="showDetails(this)">More Details</button>
+      <button onclick="showDetails(this)">more details</button>
       
       <div class="details">
         <img src="${country.flags.svg}" alt="Flag" class="flag">
