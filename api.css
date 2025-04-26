@@ -1,11 +1,11 @@
-/* Reset some basics */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
+
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(to right, #74ebd5, #ACB6E5);
@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 }
 
-/* Header and Footer */
+
 header, footer {
   background: rgba(0, 123, 255, 0.8);
   color: #fff;
@@ -24,7 +24,7 @@ header, footer {
   font-weight: 600;
 }
 
-/* Main Content */
+
 main {
   padding: 2rem;
   display: flex;
@@ -32,7 +32,7 @@ main {
   align-items: center;
 }
 
-/* Search Bar */
+
 .search-container {
   display: flex;
   margin-bottom: 2rem;
@@ -163,12 +163,11 @@ img.flag {
   100% { transform: rotate(360deg);}
 }
 
-/* Footer Small Text */
 footer {
   font-size: 0.9rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
   .search-container {
     flex-direction: column;
